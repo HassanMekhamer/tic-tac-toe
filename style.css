@@ -40,7 +40,10 @@
 .cell {
     width: 120px;
     height: 120px;
+    display: flex;
     border: 1px black dotted;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
 }
