@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic-Tac-Toe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
 
     <div class="main">
         <div class="score">
+            <form action="get">
+                <div>
+                    <input type="text" name="playerX" id="xName" placeholder="Player X">
+                    <label for="playerX"></label>
 
-            <!-- <input type="text" name="playerX" id="xName">
-            <label for="playerX">Player X: enter your name</label>
+                    <input type="text" name="playerO" id="oName" placeholder="Player O">
+                    <label for="playerO"></label>
+                </div>
+                <button type="button" class="namesBtn">submit names</button>
+            </form>
+            <h4 class="player1">Player X: 0</h4>
+            <h4 class="player2">Player O: 0</h4>
 
-            <input type="text" name="playerO" id="oName">
-            <label for="playerO">Player O: enter your name</label> -->
-
-            <h4 class="player1">Player X: </h4>
-            <h4 class="player2">Player O: </h4>
-
-            
+            <button class="resetBtn">Reset Board</button>
         </div>
         <div class="board">
 
         </div>
     </div>
-    
+
 
     <script src="script.js"></script>
 </body>
+
 </html>

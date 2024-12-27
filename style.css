@@ -1,24 +1,42 @@
+*
+ {
+    font-family: "Bangers", serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    color: #E82561;
+ }
 .main {
     display: flex;
     flex-direction: column;
     gap: 5em;
     align-items: center;
     justify-content: center;
-
 }
 
 .score {
     display: flex;
     flex-direction: column;
-    border: salmon dotted 2.5px;
+    justify-content: center;
+    align-items: center;
+    border: salmon dashed 2.5px;
     border-radius: 8px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: #F2AE66;
+    box-shadow: 50px yellow;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 .board {
-    padding: 5px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,6 +45,8 @@
     height: 420px;
     border: salmon dotted 2.5px;
     border-radius: 8px;
+    background-color: #E8E7AB;
+
 }
 
 .startBtn {
@@ -46,4 +66,24 @@
     font-size: 40px;
     align-items: center;
     justify-content: center;
+    background-color: #F2AE66;
+}
+
+input {
+    border: outset 1.5px #E82561;
+    border-radius: 7px;
+    height: 22px;
+    width: 80px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-bottom: 6px;
+}
+
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #E82561;
+    border-radius: 7px;
 }
